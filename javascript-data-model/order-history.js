@@ -23,22 +23,12 @@ var orderHistory = [
     returnWindow: 'Aug 5, 2020',
     deliverDate: 'July 7, 2020'
   },
-  [
-    {
-      item: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
-      orderDate: 'July 3, 2020',
-      orderNumber: '113-2883177-2648248',
-      price: 94.95,
-      returnWindow: 'Aug 4, 2020',
-      deliverDate: 'July 5, 2020'
-    },
-    {
-      item: 'The Art of Sql',
-      orderDate: 'July 3, 2020',
-      orderNumber: '113-2883177-2648248',
-      price: 33.99,
-      returnWindow: 'Aug 4, 2020',
-      deliverDate: 'July 5, 2020'
-    }
-  ]
+  {
+    item: ['GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)', 'The Art of Sql'],
+    orderDate: 'July 3, 2020',
+    orderNumber: '113-2883177-2648248',
+    price: [94.95, 33.99],
+    returnWindow: 'Aug 4, 2020',
+    deliverDate: 'July 5, 2020'
+  }
 ];
