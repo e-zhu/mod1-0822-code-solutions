@@ -5,6 +5,9 @@ function filterOutNulls(values) {
     if (values[i] != null) {
       var addValue = values[i];
       noNulls.push(addValue);
+    } else if (values[i] === undefined) {
+      addValue = values[i];
+      noNulls.push(addValue);
     }
   }
   return noNulls;
