@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.light {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.container.off {
+  background-color: #1c1c1c;
+}
+
+.container.on {
+  background-color: white;
+}
+
+.light.off {
+  background-color: #575757;
+  box-shadow: 0 -5px 0 5px black;
+}
+
+.light.on {
+  background-color: yellow;
+  box-shadow: 0 -5px 0 5px #f9fadc;
+}
